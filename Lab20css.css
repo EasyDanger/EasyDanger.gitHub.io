@@ -24,6 +24,7 @@ a:hover {
 /* Section Styles */
 
 .main-nav {
+	font-family: "Yamaha EBM 10";
   width: 100%;
   background: black;
   min-height: 30px;
@@ -52,6 +53,9 @@ a:hover {
 .nav a:hover {
   color: white
 }
+h2 {
+	font-family: "Yamaha EBM 10";
+}
 
 header {
   text-align: center;
@@ -63,17 +67,19 @@ header {
 header {
   line-height: 1.5;
 }
-header .profile-image {
-  margin-top: 50px;
+ .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
   border: 3px solid white;
   transition: all .5s;
+  text-align: right;
+
 }
-header .profile-image:hover {
+ .profile-image:hover {
   transform: scale(1.5) rotate(-7deg);
 }
+
 .tag {
   background-color: #920000;
   color: white;
@@ -82,7 +88,13 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 } 
-
+.titles {
+	background-color: #222;
+	color: #a5a5a5;
+}
+.name {
+	font-family: "Yamaha EBM 10";
+}
 .quote {
 	color: #222;
 	font-weight: normal;
@@ -90,10 +102,7 @@ header .profile-image:hover {
 	font-size: 1.5em;
 	background-color: #a5a5a5
 }
-.titles {
-  background-color: #222;
-  color: #a5a5a5;
-}
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -106,6 +115,14 @@ header .profile-image:hover {
 }
 .card:hover {
   border-color: #470000;
+}
+.card a {
+	color: black;
+  transition: all .5s;
+
+}
+.card a:hover {
+	color: white;
 }
 
 ul.skills {

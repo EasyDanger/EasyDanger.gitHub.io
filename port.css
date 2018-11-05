@@ -18,24 +18,19 @@ a {
   color: #920000;
 }
 a:hover {
-  color: white;
+  color: #6633ff;
 }
-h2 {
-	font-family: "Yamaha EBM 10";
-	text-align: center;
-	      display: flex;
-    justify-content: space-between;
-}
+
 /* Section Styles */
 
 .main-nav {
+	font-family: "Yamaha EBM 10";
   width: 100%;
   background: black;
   min-height: 30px;
   padding: 10px;
   position: fixed;
   text-align: center;
-  font-family: "Yamaha EBM 10";
 }
 .nav {
   display: flex;
@@ -58,6 +53,11 @@ h2 {
 .nav a:hover {
   color: white
 }
+h2 {
+	font-family: "Yamaha EBM 10";
+}
+
+
 header {
   text-align: center;
   background: url('pictures/mountain profile.jpg') no-repeat top center ;
@@ -68,20 +68,10 @@ header {
 header {
   line-height: 1.5;
 }
-header .profile-image {
-  margin-top: 50px;
+ .profile-image {
+	   margin-top: 25px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border: 3px solid white;
-  transition: all .5s;
-}
-header .profile-image:hover {
-  transform: scale(1.5) rotate(-7deg);
-}
- .profile-image {
-  width: 100px;
-  height: 100px;
   border-radius: 50%;
   border: 3px solid white;
   transition: all .5s;
@@ -91,11 +81,7 @@ header .profile-image:hover {
  .profile-image:hover {
   transform: scale(1.5) rotate(-7deg);
 }
-.image {
-  margin-top: 20px;
-  width: 100%;
-  transition: all .5s;
-}
+
 .tag {
   background-color: #920000;
   color: white;
@@ -104,6 +90,21 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
 } 
+.titles {
+	background-color: #222;
+	color: #a5a5a5;
+}
+.name {
+	font-family: "Yamaha EBM 10";
+	
+}
+.quote {
+	color: #222;
+	font-weight: normal;
+	font-family: "Freestyle Script";
+	font-size: 1.5em;
+	background-color: #a5a5a5
+}
 
 .card {
   margin: 30px;
@@ -114,7 +115,6 @@ header .profile-image:hover {
   border-bottom: 4px solid #6c0000;
   border-radius: 6px;
   color: white;
-  
 }
 .card:hover {
   border-color: #470000;
